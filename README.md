@@ -40,7 +40,12 @@ For ImageNet dataset:
 CUDA_VISIBLE_DEVICES=0 python run_imagenet.py --config configs/imagenet.yaml
 ```
 
-For other 10 datasets:
+For Caltech101 dataset:
+```bash
+CUDA_VISIBLE_DEVICES=0 python run_caltech101.py --config configs/caltech.yaml
+```
+
+For other 9 datasets:
 TODO...
 
 ## Acknowledgement
